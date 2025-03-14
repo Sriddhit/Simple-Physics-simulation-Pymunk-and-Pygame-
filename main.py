@@ -1,5 +1,7 @@
 import pygame, sys, pymunk
 
+## I wrote this code by watching Clear Code's YouTube Video
+
 def create_apple(space, pos):
     body = pymunk.Body(1, 50, body_type = pymunk.Body.DYNAMIC)
     body.position = pos
